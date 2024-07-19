@@ -7,7 +7,7 @@
 <p>So, please follow these steps for now</p>
 <ol>
   <li>Download the master zip. Found at https://github.com/yvantot/hide_chat => Code => Download ZIP</li>
-  <li>Extract the file whenever you want</li>
+  <li>Extract the file whenever you want, it must be in its own separated folder</li>
   <li>Go to your chromium browser (Chrome, Brave, Edge...) > Extension settings > Enable developer mode</li>
   <li>Click Load Unpacked > Select the extracted folder</li>
 </ol>
