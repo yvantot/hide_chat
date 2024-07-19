@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Chat! - Messenger Ignore",
+    "description": "Remove Messenger chat with one-click and never see it again.",
+    "version": "1.0",
+    "icons": {
+        "16": "/assets/hidechat_icon16.png",
+        "32": "/assets/hidechat_icon32.png",
+        "48": "/assets/hidechat_icon48.png",
+        "128": "/assets/hidechat_icon128.png",
+        "256": "/assets/hidechat_icon256.png"  
+    },
+    "permissions": ["storage", "scripting", "activeTab", "contextMenus"],
+    "background": {
+        "service_worker": "/background/background.js"
+    },
+    "action": {
+        "default_popup": "/popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": ["/content/content.js"],
+            "matches": ["https://www.messenger.com/*"]
+        }  
+    ]        
+}
