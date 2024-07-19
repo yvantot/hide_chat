@@ -2,6 +2,13 @@
 <img src="https://github.com/user-attachments/assets/bbe5e235-6971-4b6d-8de7-2b11befcb7e8"/>
 <p>A Chrome extension that hides chat 📩 easily 👌</p>
 <hr />
+<h2>Technical Features</h2>
+<ul>
+  <li>Hides the chat before the Messenger loads</li>
+  <li>The hidden chats won't disappear after reload or browser exit, it stays</li>
+  <li>And it's fast, it doesn't scrawl the DOM to find the chat you want to hide</li>
+</ul>
+<hr />
 <h2>How to install?</h2>
 <p>Unfortunately, I don't have the money to buy the Chrome extenstion developer license, so you can't install it from the Chrome store.</p>
 <p>So, please follow these steps for now</p>
