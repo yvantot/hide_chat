@@ -5,7 +5,7 @@
 <h2>Technical Features</h2>
 <ul>
   <li>Hides the chat before Messenger loads</li>
-  <li>Hidden chats won't disappear after reload or browser exit; they stay hidden</li>
+  <li>Hidden chats will stay hidden unless removed by you</li>
   <li>It's fast and doesn't scrawl the DOM to find the chat you want to hide</li>
   <li>Stable. It won't break Messenger unlike similar tools that change the DOM by deleting the element</li>
 </ul>
