@@ -11,14 +11,7 @@
 </ul>
 <hr />
 <h2>How to Install?</h2>
-<p>Unfortunately, I don't have the money to buy the Chrome extension developer license, so you can't install it from the Chrome store.</p>
-<p>Please follow these steps for now:</p>
-<ol>
-  <li>Download the master zip file from https://github.com/yvantot/hide_chat => Code => Download ZIP</li>
-  <li>Extract the file to any location, but it must be in its own separate folder</li>
-  <li>Go to your Chromium browser (Chrome, Brave, Edge...) > Extension settings > Enable developer mode</li>
-  <li>Click Load Unpacked > Select the extracted folder</li>
-</ol>
+<a href="https://chromewebstore.google.com/detail/hide-chat-messenger-ignor/kphogckdbnfnpgihkacelglgooicllka">Download from the Chrome Web Store</a>
 <hr />
 <h2>How to Use?</h2>
 <img src="https://github.com/user-attachments/assets/a0efb583-5ae6-44dd-b388-591d08a0115d"/>
