@@ -1,0 +1,48 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Me Chat",
+    "author": "Jun Ivanne Dalman",
+    "version": "2.0.0",
+    "description": "Provides client privacy features for Messenger",
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "activeTab"
+    ],
+    "icons": {
+        "16": "./assets/hidechat_icon16.png",
+        "32": "./assets/hidechat_icon32.png",
+        "48": "./assets/hidechat_icon48.png",
+        "128": "./assets/hidechat_icon128.png",
+        "256": "./assets/hidechat_icon256.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "./assets/hidechat_icon16.png",
+            "24": "./assets/hidechat_icon32.png",
+            "32": "./assets/hidechat_icon32.png"
+        },
+        "default_popup": "./html/popup.html",
+        "default_title": "Hide Chat"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "./js/content/utilities.js",
+                "./js/content/hide.js",
+                "./js/content/pin.js",
+                "./js/content/lock.js",
+                "./js/content/obfuscate.js",
+                "./js/content/injectCSS.js"
+            ],
+            "matches": [
+                "*://www.messenger.com/*",
+                "*://www.facebook.com/*"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "background": {
+        "service_worker": "./js/background/handleData.js"
+    }
+}
