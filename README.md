@@ -6,7 +6,7 @@ How to use:
 1. Right-click a chat from the chat list.
 2. Hover Hide Chat to see privacy features and click the desired action.
 
-Features:
+Features: <br/>
 🔒 Hide Chats
 Quickly conceal specific chats with just a tap. Perfect for when you share your device, want to keep conversations discreet.
 
